@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  margin-top: 0;
+  line-height: 1.1;
+  padding-bottom: 3rem;
+}
+
+/* Utility classes */
+
+.container {
+  max-width: 1128px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+  gap: 40px;
+  flex: 1;
+}
+
+.py-1 {
+  padding: 60px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-white,
+.section-black,
+.section-brown {
+  padding: 1.5rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3eed9;
+  text-align: center;
+  min-height: 660px;
+  color: #824936;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.section-white h2 {
+  color: #824936;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.text--item__color {
+  color: #000;
+  flex-basis: 430px;
+}
+
+.section-black {
+  background-color: #222c2a;
+}
+
+.section-brown {
+  background-color: #824936;
+}
+
+.text--item {
+  color: #fff;
+}
+
+.text--item,
+.text--item p,
+.image-item,
+img {
+  width: 100%;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+  }
+
+  p {
+    padding: 1em 0;
+  }
+
+  img {
+    margin: 1em 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
